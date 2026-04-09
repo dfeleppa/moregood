@@ -87,7 +87,14 @@ a {
 }
 
 .brand-lockup {
+  display: block;
+  flex-shrink: 0;
   width: min(22rem, 48vw);
+}
+
+.brand-logo {
+  width: 100%;
+  height: auto;
 }
 
 .site-nav {

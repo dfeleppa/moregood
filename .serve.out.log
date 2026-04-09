@@ -1,0 +1,15 @@
+ INFO  Accepting connections at http://localhost:8000
+ HTTP  4/9/2026 3:51:55 PM 127.0.0.1 GET /
+ HTTP  4/9/2026 3:51:55 PM 127.0.0.1 Returned 200 in 70 ms
+ HTTP  4/9/2026 3:52:11 PM 127.0.0.1 GET /
+ HTTP  4/9/2026 3:52:11 PM 127.0.0.1 Returned 200 in 4 ms
+ HTTP  4/9/2026 3:52:11 PM 127.0.0.1 GET /styles.css
+ HTTP  4/9/2026 3:52:11 PM 127.0.0.1 GET /assets/more-gooder-logo-horizontal.svg
+ HTTP  4/9/2026 3:52:11 PM 127.0.0.1 GET /assets/more-gooder-logo-stacked.svg
+ HTTP  4/9/2026 3:52:11 PM 127.0.0.1 Returned 200 in 6 ms
+ HTTP  4/9/2026 3:52:11 PM 127.0.0.1 Returned 200 in 5 ms
+ HTTP  4/9/2026 3:52:11 PM 127.0.0.1 Returned 200 in 5 ms
+ HTTP  4/9/2026 3:52:11 PM 127.0.0.1 GET /script.js
+ HTTP  4/9/2026 3:52:11 PM 127.0.0.1 Returned 200 in 2 ms
+ HTTP  4/9/2026 3:52:12 PM 127.0.0.1 GET /favicon.ico
+ HTTP  4/9/2026 3:52:12 PM 127.0.0.1 Returned 404 in 2 ms
