@@ -31,6 +31,7 @@
         <nav class="site-nav" aria-label="Primary">
           <a href="#about">About</a>
           <a href="#episodes">Episodes</a>
+          <a href="#videos">Videos</a>
           <a href="#listen">Listen</a>
         </nav>
       </header>
@@ -50,7 +51,13 @@
             </p>
             <div class="hero-actions">
               <a class="button button-primary" href="#listen">Start Listening</a>
-              <a class="button button-secondary" href="#episodes">See Episodes</a>
+              <a
+                class="button button-secondary"
+                href="https://www.youtube.com/@MoreGooderShow"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Watch on YouTube</a
+              >
             </div>
           </div>
 
@@ -123,6 +130,28 @@
           </article>
         </section>
 
+        <section class="videos-section" id="videos" aria-labelledby="videos-title">
+          <div class="videos-header reveal">
+            <p class="eyebrow">Latest On YouTube</p>
+            <h2 id="videos-title">Watch our newest drops.</h2>
+            <p>
+              Catch the full show, highlights, and fresh uploads directly from our
+              YouTube channel.
+            </p>
+            <a
+              class="button button-primary"
+              href="https://www.youtube.com/@MoreGooderShow"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Visit YouTube Channel</a
+            >
+          </div>
+          <div class="videos-feed reveal reveal-delay" aria-live="polite">
+            <p class="videos-status" id="videos-status">Loading recent videos...</p>
+            <div class="videos-grid" id="videos-grid"></div>
+          </div>
+        </section>
+
         <section class="listen-section" id="listen">
           <div class="listen-copy reveal">
             <p class="eyebrow">Listen Anywhere</p>
@@ -135,7 +164,13 @@
           <div class="listen-links reveal reveal-delay">
             <a href="#" aria-label="Spotify placeholder link">Spotify</a>
             <a href="#" aria-label="Apple Podcasts placeholder link">Apple Podcasts</a>
-            <a href="#" aria-label="YouTube placeholder link">YouTube</a>
+            <a
+              href="https://www.youtube.com/@MoreGooderShow"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="YouTube channel"
+              >YouTube</a
+            >
             <a href="#" aria-label="Newsletter placeholder link">Newsletter</a>
           </div>
         </section>
