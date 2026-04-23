@@ -23,12 +23,13 @@ const YOUTUBE_CONFIG = {
   maxVideos: 3,
   featuredVideos: [
     {
-      title: "More Gooder | Newest Drop",
+      title: "Running a Real Business: Trucks, Sales Training & Curb Appeal",
       url: "https://youtu.be/BC4kFtcMIQo",
       videoId: "BC4kFtcMIQo",
       publishedLabel: "Just Released",
+      type: "Podcast",
       description:
-        "Our freshest episode — hit play for the latest from More Gooder.",
+        "Trucks, sales training, and curb appeal — what it actually takes to run a real business.",
       isNew: true,
     },
     {
