@@ -23,21 +23,29 @@ const YOUTUBE_CONFIG = {
   maxVideos: 3,
   featuredVideos: [
     {
+      title: "More Gooder | Newest Drop",
+      url: "https://youtu.be/BC4kFtcMIQo",
+      videoId: "BC4kFtcMIQo",
+      publishedLabel: "Just Released",
+      description:
+        "Our freshest episode — hit play for the latest from More Gooder.",
+      isNew: true,
+    },
+    {
       title: "Vlog | Ep. 1",
       url: "https://youtu.be/Mx6yu1LhjTc?si=DO7I_-c4WKvnd-uw",
       videoId: "Mx6yu1LhjTc",
-      publishedLabel: "Just Dropped",
+      publishedLabel: "Recent Vlog",
       type: "Vlog",
       episodeNumber: "Ep. 01",
       description:
         "Behind the scenes of the debut — how the show came together and what's coming next.",
-      isNew: true,
     },
     {
       title: "Podcast | Ep. 1",
       url: "https://youtu.be/y-w5UJ6scvE?si=sgu1tiOu86gV38HL",
       videoId: "y-w5UJ6scvE",
-      publishedLabel: "Newest Podcast",
+      publishedLabel: "Recent Podcast",
       type: "Podcast",
       episodeNumber: "Ep. 01",
       description:
