@@ -29,9 +29,8 @@
           />
         </a>
         <nav class="site-nav" aria-label="Primary">
-          <a href="#about">About</a>
           <a href="#episodes">Episodes</a>
-          <a href="#videos">Videos</a>
+          <a href="#about">About</a>
           <a href="#listen">Listen</a>
         </nav>
       </header>
@@ -89,6 +88,29 @@
           </div>
         </section>
 
+        <section class="episodes-section" id="episodes" aria-labelledby="episodes-title">
+          <div class="episodes-header reveal">
+            <p class="eyebrow">Fresh Episodes</p>
+            <h2 id="episodes-title">Newest drops, front &amp; center.</h2>
+            <p class="episodes-subtitle">
+              Our latest vlogs and podcast episodes — pressed, polished, and
+              ready to hit play.
+            </p>
+            <p class="episodes-status" id="videos-status">Loading recent episodes...</p>
+          </div>
+          <div class="episodes-feed reveal reveal-delay" aria-live="polite">
+            <div class="episode-spotlight" id="episode-spotlight"></div>
+            <div class="videos-grid" id="videos-grid"></div>
+            <a
+              class="button button-secondary episodes-cta"
+              href="https://www.youtube.com/@MoreGooderShow"
+              target="_blank"
+              rel="noopener noreferrer"
+              >See every episode on YouTube</a
+            >
+          </div>
+        </section>
+
         <section class="about section-grid" id="about">
           <div class="section-intro reveal">
             <p class="eyebrow">Why It Works</p>
@@ -103,7 +125,7 @@
           </div>
         </section>
 
-        <section class="feature-band" id="episodes">
+        <section class="feature-band">
           <article class="feature-block reveal">
             <p class="feature-label">01</p>
             <h3>Conversations with pace</h3>
@@ -128,28 +150,6 @@
               newsletter signups, and social-linked traffic.
             </p>
           </article>
-        </section>
-
-        <section class="videos-section" id="videos" aria-labelledby="videos-title">
-          <div class="videos-header reveal">
-            <p class="eyebrow">Latest On YouTube</p>
-            <h2 id="videos-title">Watch our newest drops.</h2>
-            <p>
-              Catch the full show, highlights, and fresh uploads directly from our
-              YouTube channel.
-            </p>
-            <a
-              class="button button-primary"
-              href="https://www.youtube.com/@MoreGooderShow"
-              target="_blank"
-              rel="noopener noreferrer"
-              >Visit YouTube Channel</a
-            >
-          </div>
-          <div class="videos-feed reveal reveal-delay" aria-live="polite">
-            <p class="videos-status" id="videos-status">Loading recent videos...</p>
-            <div class="videos-grid" id="videos-grid"></div>
-          </div>
         </section>
 
         <section class="listen-section" id="listen">
