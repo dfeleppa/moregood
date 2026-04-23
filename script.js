@@ -27,7 +27,7 @@ const YOUTUBE_CONFIG = {
       url: "https://youtu.be/BC4kFtcMIQo",
       videoId: "BC4kFtcMIQo",
       publishedLabel: "Just Released",
-      type: "Podcast",
+      type: "YouTube Vlog",
       description:
         "Trucks, sales training, and curb appeal — what it actually takes to run a real business.",
       isNew: true,
