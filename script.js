@@ -23,6 +23,12 @@ const YOUTUBE_CONFIG = {
   maxVideos: 3,
   featuredVideos: [
     {
+      title: "A Small Business Owner's Job Is Leverage, Not Labor | More Gooder Pod Ep. 05",
+      url: "https://www.youtube.com/watch?v=ln2EQ3VQrjM",
+      videoId: "ln2EQ3VQrjM",
+      publishedLabel: "Most Recent Video",
+    },
+    {
       title: "Vlog | Ep. 1",
       url: "https://youtu.be/Mx6yu1LhjTc?si=DO7I_-c4WKvnd-uw",
       videoId: "Mx6yu1LhjTc",
